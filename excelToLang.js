@@ -3,7 +3,7 @@ var fs = require('fs')
 var path = require('path')
 const xlsx = require('xlsx');
 
-let workbook = xlsx.readFile('./国际化.xlsx');
+let workbook = xlsx.readFile('./aa.xlsx');
 let sheetNames = workbook.SheetNames;
 var obj = {}
 var objEn = {}
